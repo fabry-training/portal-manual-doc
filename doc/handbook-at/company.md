@@ -36,7 +36,7 @@ The roles PosDealer, consultant and PosOperator are assigned in the same way, wh
 
 ##### Cooperation agreement PosCreator
 
-This function enables companies to use the role of a PosCreator in the ft.portal. Thus all functions of a PosCreator, e.g. the creation and administration of employees, cash register products or PosDealers are available to him in the ft.Portal.
+This function enables companies to use the role of a PosCreator in the fiskaltrust.Portal. Thus all functions of a PosCreator, e.g. the creation and administration of employees, cash register products or PosDealers are available to him in the fiskaltrust.Portal.
 
 ![Screenshot-AT 29](images/portal-sandbox.fiskaltrust.at/AccountProfile/002.png)
 Screenshot-AT 29: Slider for assigning the role "controller manufacturer"
@@ -117,7 +117,7 @@ Already with an active role as a "PosCreator", "PosDealer"
 or "consultant" one achieves the status as a fiskaltrust partner.
 
 ![Screenshot-AT 34](images/portal-sandbox.fiskaltrust.at/email/004.png) 
-Screenshot-AT 34: Email confirmation: Activation of the fiskaltrust partner role
+Screenshot-AT 34: Email confirmation: Activation of the fiskaltrust.Partner role
 
 This partnership is free of charge and enables e.g. the use of the ft.service as well as various advertising media.
 
@@ -125,7 +125,7 @@ This partnership is free of charge and enables e.g. the use of the ft.service as
 
 With the status ft.partner it is possible to enter a company in the public partner list.
 
-This entry is voluntary, free of charge, revocable and can be changed by the ft.partner at any time via the ft.portal.
+This entry is voluntary, free of charge, revocable and can be changed by the ft.partner at any time via the fiskaltrust.Portal.
 
 [![https://portal.fiskaltrust.at/AccountProfile](images/portal-sandbox.fiskaltrust.at/AccountProfile/006.png "https://portal.fiskaltrust.at/AccountProfile")](https://portal.fiskaltrust.at/AccountProfile)
 Screenshot-AT 35: Entry in the public partner list
@@ -222,9 +222,9 @@ Principally, all companies can apply for a UID number.
 
 Companies that do not have a UID number can use the GLN or the tax number as a classification term for the certificates.
 
-![Number 6](../images/Numbers/6.png) "GLN" The Global Location Number of a company can be queried e.g. via the WKO Firmen A-Z ([https://firmen.wko.at/](https://firmen.wko.at/)) or the company service portal ([https://www.usp.gv.at](https://www.usp.gv.at)).
+![Number 6](../images/Numbers/6.png) "GLN" The Global Location Number of a company can be queried e.g. via the WKO Firmen A-Z ([https://firmen.wko.at/](https://firmen.wko.at/)) or the company service fiskaltrust.Portal ([https://www.usp.gv.at](https://www.usp.gv.at)).
 
-"Tax number" \[The check of the tax number via the EU portal can temporarily lead to the error message (505) Bad Gateway.\]
+"Tax number" \[The check of the tax number via the EU fiskaltrust.Portal can temporarily lead to the error message (505) Bad Gateway.\]
 
 #### Checking the company's classification terms
 
@@ -264,7 +264,7 @@ To use the ft.Personalization Tool see chapter [ft.Personalization Tool](fiskali
 
 #### Account settings
 
-Under the account settings you can set the length of the display for various lists in the ft.Portal.
+Under the account settings you can set the length of the display for various lists in the fiskaltrust.Portal.
 
 #### Distribution areas of the company
 

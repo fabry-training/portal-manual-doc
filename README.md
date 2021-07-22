@@ -1,9 +1,9 @@
-# fiskaltrust portal manual doc
+# fiskaltrust fiskaltrust.Portal manual doc
 
 ## Purpose and content
-Goal of this repository is to list and describe the available functionality of the fiskaltrust.Portal, so that the usability and understanding of the portal can be increased by the here offered explanations and descriptions.
+Goal of this repository is to list and describe the available functionality of the fiskaltrust.Portal, so that the usability and understanding of the fiskaltrust.Portal can be increased by the here offered explanations and descriptions.
 
-Each offered functionality of the fiskaltrust.Portal including the meaning of menu items, buttons, input fields, dropdown & checkbox values, etc. is described here. To avoid confusion as much as possible, also different hints referring on how the portal helps to configure or run fiskaltrust different processes can be found here. The description of fiskaltrust processes and products themselves are not part of this repository.
+Each offered functionality of the fiskaltrust.Portal including the meaning of menu items, buttons, input fields, dropdown & checkbox values, etc. is described here. To avoid confusion as much as possible, also different hints referring on how the fiskaltrust.Portal helps to configure or run fiskaltrust different processes can be found here. The description of fiskaltrust processes and products themselves are not part of this repository.
 
 # Further public fiskaltrust repositories
 

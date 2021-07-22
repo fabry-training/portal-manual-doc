@@ -20,7 +20,7 @@ Screenshot-AT 23: Dashboard - overview page with the functions shared with the u
 
 ![Number 4](../images/Numbers/4.png) By clicking on the symbol ![Menu](../images/Buttons/028.png "Menu") , the displayed menu can be reduced in size on the left margin of the page.
 
-![Number 5](../images/Numbers/5.png) By clicking on the text "Log out e-mail address" the user is logged out of the ft.portal and the landing page is called up. (see chapter [Landing Page](portal.md#landing-page))
+![Number 5](../images/Numbers/5.png) By clicking on the text "Log out e-mail address" the user is logged out of the fiskaltrust.Portal and the landing page is called up. (see chapter [Landing Page](portal.md#landing-page))
 
 ![Number 6](../images/Numbers/6.png) Search field - The knowledge based articles are searched for the expression entered here.
 

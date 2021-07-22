@@ -10,15 +10,15 @@ title: Registration and Login
 The Login or registration of a user takes place after clicking on \[Portal\] or directly going to the URL https://portal.fiskaltrust.fr/Account/Login. These two actions are described in this chapter.
 
 [![Login and/or register](images/Account/Login/portal-login.png "https://portal.fiskaltrust.fr/Account/login")](https://portal.fiskaltrust.fr/Account/login)
-Login, link for registration with ft.Portal and password reset | [https://portal.fiskaltrust.fr/Account/login](https://portal.fiskaltrust.fr/Account/login)
+Login, link for registration with fiskaltrust.Portal and password reset | [https://portal.fiskaltrust.fr/Account/login](https://portal.fiskaltrust.fr/Account/login)
 
-![Number 1](../images/Numbers/circle-1o.png) If you are not registered as an user on the ft.Portal you can click \[Register\] without filling in the access data and get to the registration form.
-![Number 2](../images/Numbers/circle-2o.png) If you are already registered on the Portal and therefore have an e-mail address and a password, you can login by filling the access data and clicking on \[Login\]. All portal functions released for the logged in user and the assigned rights are then available. For further information see Chapter _[Dashboard](dashboard.md)_.
+![Number 1](../images/Numbers/circle-1o.png) If you are not registered as an user on the fiskaltrust.Portal you can click \[Register\] without filling in the access data and get to the registration form.
+![Number 2](../images/Numbers/circle-2o.png) If you are already registered on the fiskaltrust.Portal and therefore have an e-mail address and a password, you can login by filling the access data and clicking on \[Login\]. All fiskaltrust.Portal functions released for the logged in user and the assigned rights are then available. For further information see Chapter _[Dashboard](dashboard.md)_.
 ![Number 3](../images/Numbers/circle-3o.png) If you have forgotten your password to login, you can click on _If you have forgotten your password please click here_. This will take you to the page where you can request a new password. For further information see _[Reset password](#reset-password)_.
 
 #### Registration<a name="registration"></a>
 
-The registration process consists of four steps, which are described as following. With this process it is the first registration of an user, as well as the associated company to that user. This procedure is independent of the users future role, regardless of it is a PosCreator, PosDealer, Consultant or PosOperator, at the ft.Portal. 
+The registration process consists of four steps, which are described as following. With this process it is the first registration of an user, as well as the associated company to that user. This procedure is independent of the users future role, regardless of it is a PosCreator, PosDealer, Consultant or PosOperator, at the fiskaltrust.Portal. 
 
 #### Commercial number
 
@@ -70,9 +70,9 @@ This contact is the the designated administrator of the newly registered company
 ![Register user data](images/Account/Register/portal-register-user-data.png)
 Completing the user data for the primary contact
 
-![Number 1](../images/Numbers/circle-1o.png) A valid email address must be entered and it cannot have been used already for another registration. This will be the primary contact and all messages from the ft.Portal will be sent to this address.
+![Number 1](../images/Numbers/circle-1o.png) A valid email address must be entered and it cannot have been used already for another registration. This will be the primary contact and all messages from the fiskaltrust.Portal will be sent to this address.
 
-![Number 2](../images/Numbers/circle-2o.png) Enter a password to be used for [login](#login) on the ft.Portal. Confirm the password by entering it twice. Be aware of the rules for passwords written on the top of this step.
+![Number 2](../images/Numbers/circle-2o.png) Enter a password to be used for [login](#login) on the fiskaltrust.Portal. Confirm the password by entering it twice. Be aware of the rules for passwords written on the top of this step.
 
 ![Number 3](../images/Numbers/circle-3o.png) Further on enter the personal data fo the primary contact. Here the field for first and last name are mandatory.
 
@@ -138,7 +138,7 @@ Another way to logout is to open the submenu by clicking on the enterprise name!
 
 ### Reset password<a name="reset-password"></a>
 
-If the password is lost or forgotten, this function can be used to reset the password. On the login screen of the ft.Portal a hyperlink![Number 1](../images/Numbers/circle-1o.png) for requesting a new password can be found.
+If the password is lost or forgotten, this function can be used to reset the password. On the login screen of the fiskaltrust.Portal a hyperlink![Number 1](../images/Numbers/circle-1o.png) for requesting a new password can be found.
 
 ![Link to reset password](images/Account/ForgotPassword/ForgotPassword-login.png)
 Link to reset the password
@@ -147,7 +147,7 @@ In the next step the checkbox for _I'm not a robot_![Number 1](../images/Numbers
 ![Reset password](images/Account/ForgotPassword/ForgotPassword.png)
 Enter email address for the reset link
 
-The ft.Portal shows a confirmation, that the link for reseting the password was sent to the entered email address.
+The fiskaltrust.Portal shows a confirmation, that the link for reseting the password was sent to the entered email address.
 ![Confirmation of send email](images/Account/ForgotPassword/ForgotPassword-Link-send.png)
 Confirmation of sending the link
 

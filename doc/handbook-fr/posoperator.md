@@ -11,7 +11,7 @@ The invitation of a PosOperator can only be made by a PosDealer and not by a Pos
 
 However, the role of a PosDealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Roles](company.md#roles)")
 
-[![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperator.png "https://portal.fiskaltrust.fr/PosOperator" )](https://portal.fiskaltrust.fr/POSOperator)
+[![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperator.png "https://portal.fiskaltrust.fr/PosOperator" )](https://portal.fiskaltrust.fr/PosOperator)
 PosOperator - Overview
 
 By opening the PosOperator menu![Number 1](../images/Numbers/circle-1o.png) an _Overview_![Number 2](../images/Numbers/circle-2o.png) with the assigned PosOperators is shown.
@@ -23,34 +23,34 @@ There are two ways to add/assign PosOperators to a PosDealer:
 1. For adding a single PosOperator, see chapter [_Add PosOperator_](#add-posoperator).
 2. Adding several PosOperators by importing a CSV file with _Invitation_.
 
-[![https://portal.fiskaltrust.fr/PosOperator/PosOperators](images/PosOperator/PosOperators.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators" )](https://portal.fiskaltrust.fr/POSOperator)
+[![https://portal.fiskaltrust.fr/PosOperator/PosOperators](images/PosOperator/PosOperators.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators" )](https://portal.fiskaltrust.fr/PosOperator)
 Invite PosOperators to a PosDealer account
 
 ![Number 1](../images/Numbers/circle-1o.png) The CSV file is to be imported and selected via \[Choose File\].
 ![Number 2](../images/Numbers/circle-2o.png) Then the import is carried out by clicking on \[Import\].
 ![Number 3](../images/Numbers/circle-3o.png) The necessary structure of the CSV file is described using an example. This example can be obtained via \[Download demo CSV file\].
 
-| Fields of the CSV file | Description                                                                                                                         | Mandatory |
-|------------------------|-------------------------------------------------------------------------------------------------------------------------------------|:---------:|
-| ContactFirstName       | First name of the primary contact                                                                                                   | yes       |
-| ContactLastName        | Last name of primary contact                                                                                                        | yes       |
-| ContactTitle           | (Academic) Title of primary contact (before name)                                                                                   | no        |
-| ContactSuffix          | Name suffix of the primary contact (after the name)                                                                                 | no        |
-| ContactEmail           | Email address of the primary contact<br />**IMPORTANT!**<br />This email address will be the user's login to the newly created company. | yes       |
-| ContactMobilePhone     | Mobile phone number of the primary contact                                                                                          | no        |
-| AccountName            | Company name, this should be written exactly as it is in the commercial register                                                    | yes       |
-| AccountWeb             | URL of the company's website                                                                                                        | no        |
-| AccountEmail           | General email address of the company<br />**IMPORTANT!**<br />All information and all invoices will be sent to this email address!      | no        |
-| AccountPhone           | Company phone number                                                                                                                | no        |
-| AccountAddressLine1    | Address, first line of the company                                                                                                  | no        |
-| AccountAddressLine2    | Address, second line of the company                                                                                                 | no        |
-| AccountPostalCode      | Postcode of the company                                                                                                             | no        |
-| AccountCity            | Name of city of the company's address                                                                                               | no        |
-| AccountCountry         | Zip-Code of the city                                                                                                                | no        |
-| AccountIdVat           | UID number of the company.<br />**IMPORTANT!**<br />This is one of the identification criterias for legalisation of the service.        | no        |
-| AccountIdFibu          | The _SIREN_ of the company<br />**IMPORTANT!**<br />This is one of the identification criterias for legalisation of the service.        | no        |
-| AccountIdGln           | GLN of the company.                                                                                                                 | no        |
-| AccountIdTax           | Tax office tax number of the company.                                                                                               | no        |
+| Fields of the CSV file | Description                                                                                                                             | Mandatory |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|:---------:|
+| ContactFirstName       | First name of the primary contact                                                                                                       |    yes    |
+| ContactLastName        | Last name of primary contact                                                                                                            |    yes    |
+| ContactTitle           | (Academic) Title of primary contact (before name)                                                                                       |    no     |
+| ContactSuffix          | Name suffix of the primary contact (after the name)                                                                                     |    no     |
+| ContactEmail           | Email address of the primary contact<br />**IMPORTANT!**<br />This email address will be the user's login to the newly created company. |    yes    |
+| ContactMobilePhone     | Mobile phone number of the primary contact                                                                                              |    no     |
+| AccountName            | Company name, this should be written exactly as it is in the commercial register                                                        |    yes    |
+| AccountWeb             | URL of the company's website                                                                                                            |    no     |
+| AccountEmail           | General email address of the company<br />**IMPORTANT!**<br />All information and all invoices will be sent to this email address!      |    no     |
+| AccountPhone           | Company phone number                                                                                                                    |    no     |
+| AccountAddressLine1    | Address, first line of the company                                                                                                      |    no     |
+| AccountAddressLine2    | Address, second line of the company                                                                                                     |    no     |
+| AccountPostalCode      | Postcode of the company                                                                                                                 |    no     |
+| AccountCity            | Name of city of the company's address                                                                                                   |    no     |
+| AccountCountry         | Zip-Code of the city                                                                                                                    |    no     |
+| AccountIdVat           | UID number of the company.<br />**IMPORTANT!**<br />This is one of the identification criterias for legalisation of the service.        |    no     |
+| AccountIdFibu          | The _SIREN_ of the company<br />**IMPORTANT!**<br />This is one of the identification criterias for legalisation of the service.        |    no     |
+| AccountIdGln           | GLN of the company.                                                                                                                     |    no     |
+| AccountIdTax           | Tax office tax number of the company.                                                                                                   |    no     |
 
 Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields should be completed. It is recommended to use the field _AccountIdFibu_.
 
@@ -82,7 +82,7 @@ The following fields are mandatory fields and must therefore be filled in:
 - City
 - Location
 
-This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his email address and can be assigned to the PosDealer.
+This is to guarantee that the PosOperator can be found correctly in the fiskaltrust.Portal via his email address and can be assigned to the PosDealer.
 
 #### Managing the invitations
 

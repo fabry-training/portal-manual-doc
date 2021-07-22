@@ -47,7 +47,7 @@ The support offered by fiskaltrust includes:
 * Qualified fault processing in our own area of responsibility
 * Forwarding of more complex problems to downstream support units of fiskaltrust
 
-The PosCreator and/or PosDealer is responsible for the installation, configuration and integration of the fiskaltrust.Service and additional security devices. fiskaltrust does not know the individual configuration of the respective cash register and only offers the SecurityMechanism and additional features to this. If there are any questions about the POS-System itself or the configuration please contact your vendor.
+The PosCreator and/or PosDealer is responsible for the installation, configuration and integration of the fiskaltrust.Service and additional security devices. fiskaltrust does not know the individual configuration of the respective cash register and only offers the fiskaltrust.SecurityMechanismand additional features to this. If there are any questions about the POS-System itself or the configuration please contact your vendor.
 
 To purchase the fiskaltrust.Products:
 

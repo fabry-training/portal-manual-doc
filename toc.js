@@ -14,7 +14,7 @@ module.exports = {
                 },
                 'portal-manual-doc/doc/handbook-general/posoperator',
                 'portal-manual-doc/doc/handbook-general/tools',
-                'portal-manual-doc/doc/handbook-general/possystems',
+                'portal-manual-doc/doc/handbook-general/POS-Systems',
                 'portal-manual-doc/doc/handbook-general/configuration',
                 'portal-manual-doc/doc/handbook-general/shop',
                 'portal-manual-doc/doc/handbook-general/knowledgebase'
@@ -60,7 +60,7 @@ module.exports = {
                 },
                 'portal-manual-doc/doc/handbook-fr/posoperator',
                 'portal-manual-doc/doc/handbook-fr/tools',
-                'portal-manual-doc/doc/handbook-fr/possystems',
+                'portal-manual-doc/doc/handbook-fr/POS-Systems',
                 'portal-manual-doc/doc/handbook-fr/configuration',
                 'portal-manual-doc/doc/handbook-fr/fiscal-archive'
             ]

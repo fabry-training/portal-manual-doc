@@ -7,7 +7,7 @@ title: PosOperator
 
 ### Overview of assigned PosOperators
 
-Each PosOperator can log in to the ft.Portal like any other user and any company independently. (see "_Registration and Login_" in the country specific chapters)
+Each PosOperator can log in to the fiskaltrust.Portal like any other user and any company independently. (see "_Registration and Login_" in the country specific chapters)
 
 The assignment of the PosOperator to a PosDealer is shown below.
 

@@ -12,7 +12,7 @@ The ft.Shop can be reached directly at
 
 ### Methods to purchase fiskaltrust.Products
 
-You can order ft.products either through your PosDealer (as "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our support team. You can contact us for
+You can order ft.products either through your PosDealer (as "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our fiskaltrust.Support. You can contact us for
 
 - Austria at [sales@fiskaltrust.at](mailto:sales@fiskaltrust.at).
 - France at [vents@fiskaltrust.fr](mailto:vents@fiskaltrust.fr).

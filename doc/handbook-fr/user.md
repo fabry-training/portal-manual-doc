@@ -13,7 +13,7 @@ All the user data including password and user name can be managed by opening the
 ![User overview](images/ContactProfile/overview.png)
 User overview
 
-With the command _Overview_![Number 2](../images/Numbers/circle-2o.png) the initial data like _Email_, _Address_ and _Phone_ number is shown. Additionally, all roles the user has in the ft.Portal are listed.
+With the command _Overview_![Number 2](../images/Numbers/circle-2o.png) the initial data like _Email_, _Address_ and _Phone_ number is shown. Additionally, all roles the user has in the fiskaltrust.Portal are listed.
 
 #### User data<a name="user-data"></a>
 
@@ -24,11 +24,11 @@ After opening the menu with a click on the _user name_![Number 1](../images/Numb
 
 The two fields![Number 3](../images/Numbers/circle-3o.png) (_First name_ and _Last name_) marked with an asterisk (__*__) are mandatory. The more data that is entered the easier the user can be found by others. This can be very useful when assigning the user as an employee to an existing company.
 
-To change the language of the fiskaltrust.Portal the correct _Culture_![Number 4](../images/Numbers/circle-4o.png) has to be selected. If the ft.Portal should use the language of the browser then value _Detect_ should be selected.
+To change the language of the fiskaltrust.Portal the correct _Culture_![Number 4](../images/Numbers/circle-4o.png) has to be selected. If the fiskaltrust.Portal should use the language of the browser then value _Detect_ should be selected.
 
 To use the correct _Time zone_![Number 5](../images/Numbers/circle-5o.png) the corresponding value can be selected. If the time zone of the used browser should be the standard, the value _Detect_ can be selected.
 
-All changes can be stored in the ft.Portal by clicking on the button \[Save\]. The button \[Cancel\] closes the window without any changes being saved and brings the user back to the [Overview](#user-overview).
+All changes can be stored in the fiskaltrust.Portal by clicking on the button \[Save\]. The button \[Cancel\] closes the window without any changes being saved and brings the user back to the [Overview](#user-overview).
 
 Changes in the fields _Culture_ and _Time zone_ take effect after a [Logout](registration-login.md#logout) and a new [Login](registration-login.md#login) of the user.
 

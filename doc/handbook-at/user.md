@@ -23,7 +23,7 @@ The user master data can be displayed and changed here.
 [![https://portal.fiskaltrust.at/ContactProfile/EditProfile](images/portal-sandbox.fiskaltrust.at/ContactProfile/001.png "https://portal.fiskaltrust.at/ContactProfile/EditProfile")](https://portal.fiskaltrust.at/ContactProfile/EditProfile)
 Screenshot-AT 26: User - Edit master data
 
-Fields marked with a sterisk ("__\*__") are mandatory. The more master data is entered, the easier it is for other users to find the user in the ft.portal. This is useful, for example, when assigning the user to an existing company as an employee.
+Fields marked with a sterisk ("__\*__") are mandatory. The more master data is entered, the easier it is for other users to find the user in the fiskaltrust.Portal. This is useful, for example, when assigning the user to an existing company as an employee.
 
 #### User change password
 

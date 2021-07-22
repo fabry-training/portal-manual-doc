@@ -10,12 +10,12 @@ title: Tools
 [![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/Exports/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
 Screenshot-AT 80: Queue export
 
-If the POS-System is configured with an ft.Product to send the data to the ft.Portal, the data can be exported via the ft.Portal.
+If the POS-System is configured with an ft.Product to send the data to the fiskaltrust.Portal, the data can be exported via the fiskaltrust.Portal.
 
 These products contain the legally required online storage via the ft.Cloud:
 
 - 4154-0201 | fiskaltrust.carefree AT  [https://www.fiskaltrust.at/products/product_01/#1468153721989-91b86112-b158](https://www.fiskaltrust.at/products/product_01/#1468153721989-91b86112-b158)
-- 4154-0207 | fiskaltrust.SignatureCloud incl. carefree package AT [https://www.fiskaltrust.at/products/product_01/#1475349131348-1769c5fd-b93f](https://www.fiskaltrust.at/products/product_01/#1475349131348-1769c5fd-b93f)
+- 4154-0207 | fiskaltrust.SignatureCloud incl. fiskaltrust.CarefreeBundle AT [https://www.fiskaltrust.at/products/product_01/#1475349131348-1769c5fd-b93f](https://www.fiskaltrust.at/products/product_01/#1475349131348-1769c5fd-b93f)
 - Product No. 4154-0218 | fiskaltrust.POS Archive AT [https://www.fiskaltrust.at/products/product_01/#1518106534858-d3d2d959-b0fe](https://www.fiskaltrust.at/products/product_01/#1518106534858-d3d2d959-b0fe)
 
 By clicking on \[create new export\]  you can access the overview of the Queues. For further information see chapter "[Configuration - Queue](configuration.md#queue)"
@@ -32,7 +32,7 @@ Scanned QR codes are displayed here.
 First, the required receiptss must be scanned from the portal's homepage [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at).
 
 [![https://portal.fiskaltrust.at/](images/portal-sandbox.fiskaltrust.at/003.png "https://portal.fiskaltrust.at/")](https://portal.fiskaltrust.at/)
-Screenshot-AT 53: Scanning a receipt via the ft.Portal
+Screenshot-AT 53: Scanning a receipt via the fiskaltrust.Portal
 
 ![Number 1](../images/../images/Numbers/1.png) Click on ![Scan](../images/Buttons/022.png "Scan") to activate functions for scanning receipts. This is only possible if the computer system you are using has a camera (webcam) installed.
 
@@ -40,11 +40,11 @@ Screenshot-AT 53: Scanning a receipt via the ft.Portal
 
 Only if a QR code is recognized, the image stops, otherwise it disappears again after a few seconds.
 
-![Number 3](../images/../images/Numbers/3.png) A recognized QR code is marked with a red frame and can be transferred to the portal for further processing by clicking on the small image. To do this, you must log in to the portal with an existing login.
+![Number 3](../images/../images/Numbers/3.png) A recognized QR code is marked with a red frame and can be transferred to the fiskaltrust.Portal for further processing by clicking on the small image. To do this, you must log in to the fiskaltrust.Portal with an existing login.
 
-Thus a start or yearly receipt can be processed automatically in the ft.Portal afterwards.
+Thus a start or yearly receipt can be processed automatically in the fiskaltrust.Portal afterwards.
 
-Now the scanned receipt can be viewed in the portal under "Scanned QR Codes".
+Now the scanned receipt can be viewed in the fiskaltrust.Portal under "Scanned QR Codes".
 [![https://portal.fiskaltrust.at/AccountProfile/ScannedQrCodes](images/portal-sandbox.fiskaltrust.at/AccountProfile/ScannedQrCodes/001.png "https://portal.fiskaltrust.at/AccountProfile/ScannedQrCodes")](https://portal.fiskaltrust.at/AccountProfile/ScannedQrCodes)
 Screenshot-AT 54: Scanned QR codes
 

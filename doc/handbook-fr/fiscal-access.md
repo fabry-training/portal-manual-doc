@@ -7,7 +7,7 @@ title: Access for fiscal control
 
 ### 1. Login
 
-In order to access the fiscal information, the auditor will need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
+In order to access the fiscal information, the auditor will need the PosOperator to login to the fiskaltrust.Portal at https://portal.fiskaltrust.fr with his proper credentials.
 
 [![https://portal.fiskaltrust.fr/](images/fiscal-archive/01-login.png "https://portal.fiskaltrust.fr/" )](https://portal.fiskaltrust.fr/)  
 Export fiscal archive - Login to the fiskaltrust.Portal
@@ -25,7 +25,7 @@ As the second step, the queue for the POS-System and/or outlet must be identifie
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/02-identify-queue.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Portal
 
-![Number 1](../images/Numbers/circle-1o.png) On the left side of the portal the menu can be found. Click on the word _Configuration_ to open this menu.
+![Number 1](../images/Numbers/circle-1o.png) On the left side of the fiskaltrust.Portal the menu can be found. Click on the word _Configuration_ to open this menu.
 
 ![Number 2](../images/Numbers/circle-2o.png) Click on _Queue_ to show the whole list of queues created for the company.
 
@@ -173,26 +173,26 @@ The file _journal.json_ contains the information about the processed export and 
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/09_1-files-output_json.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - Example of _journal.json_
 
-| field name | type        | meaning                              | example                                  |
-|------------|-------------|--------------------------------------|------------------------------------------|
-| LogItemId  | GUID        | ID of this export in the log journal | `7948984a-ef54-4c78-8404-66b397280442`   |
-| Moment     | date / time | Moment of finished export            | `2019-08-19T23:18:44.245682Z`            |
-| Level      | integer     |                                      | `0`                                      |
-| DataType   | string      |                                      | `AzureStorageDownloaderOutput`           |
-| Data       | json object |                                      |                                          |  
+| field name | type        | meaning                              | example                                |
+|------------|-------------|--------------------------------------|----------------------------------------|
+| LogItemId  | GUID        | ID of this export in the log journal | `7948984a-ef54-4c78-8404-66b397280442` |
+| Moment     | date / time | Moment of finished export            | `2019-08-19T23:18:44.245682Z`          |
+| Level      | integer     |                                      | `0`                                    |
+| DataType   | string      |                                      | `AzureStorageDownloaderOutput`         |
+| Data       | json object |                                      |                                        |
 
 Export fiscal archive - content of the _journal.json_ (main part)
 
-| field name            | type        | meaning                              | example                        |
-|-----------------------|-------------|--------------------------------------|--------------------------------|
-| ChainsCount           | integer     | number of chains exported            | `1`                            |
-| StrictAscendingChains | integer     | number of chains with no errors      | `1`                            |
-| OrphanedEntries       | integer     | entries with no parents and child    | `0`                            |
-| Nodes                 | integer     | number of nodes in a chain           | `0`                            |
-| Leafs / Leaves                 | integer     | number of leafs in a chain           | `1`                            |
-| Sources               | integer     | number of sources in a chain         | `1`                            |
-| Paths                 | integer     | number of paths in a chain           | `1`                            |
-| Message               | string      |                                      | The Queue is chained correctly |  
+| field name            | type    | meaning                           | example                        |
+|-----------------------|---------|-----------------------------------|--------------------------------|
+| ChainsCount           | integer | number of chains exported         | `1`                            |
+| StrictAscendingChains | integer | number of chains with no errors   | `1`                            |
+| OrphanedEntries       | integer | entries with no parents and child | `0`                            |
+| Nodes                 | integer | number of nodes in a chain        | `0`                            |
+| Leafs / Leaves        | integer | number of leafs in a chain        | `1`                            |
+| Sources               | integer | number of sources in a chain      | `1`                            |
+| Paths                 | integer | number of paths in a chain        | `1`                            |
+| Message               | string  |                                   | The Queue is chained correctly |
 
 Export fiscal archive - content of the _journal.json_ (data object)
 
@@ -213,7 +213,7 @@ Export fiscal archive - Example of _Chainchecker_
 
 #### XML export
 
-The full export in XML format contains all the journals of a queue in an XML structure and are separated by data structure (see table below called "*Data structures included in the XML and CSV files*"). Once the export has been run, the completed export can be found in the Portal by clicking on the chevron beside the ![Upload location](images/fiscal-archive/053.png "Upload location") and selecting the XML file that appears.
+The full export in XML format contains all the journals of a queue in an XML structure and are separated by data structure (see table below called "*Data structures included in the XML and CSV files*"). Once the export has been run, the completed export can be found in the fiskaltrust.Portal by clicking on the chevron beside the ![Upload location](images/fiscal-archive/053.png "Upload location") and selecting the XML file that appears.
 
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/xml-export-in-portal.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - xml export in portal
@@ -231,7 +231,7 @@ Export fiscal archive - Example of xml export (_Microsoft Excel Workbook__)
 
 #### CSV export
 
-The CSV export consists of more then one file. The full export in CSV format contains seperate files all the data structures (see table below called "*Data structures included in the XML and CSV files*"). of a queue in a CSV structure. Once the export has been run, the completed export can be found in the Portal by clicking on the chevron beside the ![Upload location](images/fiscal-archive/053.png "Upload location") and selecting the each individual CSV journal file that appears.
+The CSV export consists of more then one file. The full export in CSV format contains seperate files all the data structures (see table below called "*Data structures included in the XML and CSV files*"). of a queue in a CSV structure. Once the export has been run, the completed export can be found in the fiskaltrust.Portal by clicking on the chevron beside the ![Upload location](images/fiscal-archive/053.png "Upload location") and selecting the each individual CSV journal file that appears.
 
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/csv-export-in-portal.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - CSV export in portal
@@ -248,13 +248,13 @@ Export fiscal archive - Example of CSV export (_Microsoft Excel Workbook__)
 
 
 ## Data structures included in the XML and CSV files
-| Name                             | Description                                                                                                                                                                                                                                                                                                          |
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|QueueItems|Technical overview of each receipt in the exported queue|
-|ChargeItems|services or items sold|
-|PayItems|payments of business transactions received|
-|SignaturItems|mandatorySignature block, which the cash register printed onto the receipts|
-|ReceiptJournals|data related to receipts handled by the service|
+| Name            | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| QueueItems      | Technical overview of each receipt in the exported queue                    |
+| ChargeItems     | services or items sold                                                      |
+| PayItems        | payments of business transactions received                                  |
+| SignaturItems   | mandatorySignature block, which the cash register printed onto the receipts |
+| ReceiptJournals | data related to receipts handled by the service                             |
 
 ## Content of the fiscal archive
 
@@ -283,7 +283,7 @@ The additional files are containing the detailed data of any receipt and are ref
 | APINonCash                       | Archive totalizer payitem non-cash: The total amount of all payment types *wire-transfer*, *debit card*, *paypal*                                                                                                                                                                                                    | `66981.25`                                     |
 | APIInternal                      | Archive totalizer payitem internal: The total amount of all payment types *payables*, *receivable*                                                                                                                                                                                                                   | `2004.09`                                      |
 | APIUnknown                       | Archive totalizer payitem unknown: The total amount of all payment types not listed before                                                                                                                                                                                                                           | `102.16`                                       |
-| LastActionJournalId              | Unique key of the last stored zero receipt in the action journal                                                                                                                                                                                                                                                     | `73e0850f-446f-4b99-9b4f-85c14d50fb11`         |
+| LastActionJournalId              | Unique key of the last stored zero receipt in the fiskaltrust.ActionJournal                                                                                                                                                                                                                                          | `73e0850f-446f-4b99-9b4f-85c14d50fb11`         |
 | LastJournalFRId                  | Unique key of the last signed receipt                                                                                                                                                                                                                                                                                | `45bf4a92-3f57-47c6-b581-72b84577b3ea`         |
 | LastReceiptJournalId             | Unique key of the last saved receipt                                                                                                                                                                                                                                                                                 | `fe7921db-feac-4603-ab4b-5baeb6db2697`         |
 | PreviousArchiveQueueItemId       | The GUID of the journal item which contains the preceding archive                                                                                                                                                                                                                                                    | `709a3bd1-2318-40dc-a5d1-74634c477354`         |
@@ -354,30 +354,30 @@ The additional files are containing the detailed data of any receipt and are ref
 
 | Letter | Journal | Receipt Case                  | Signed | Chained | Counters raised | Details                                                                                                                                                                                                  |
 |:------:|---------|-------------------------------|:------:|:-------:|:---------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A      | Archive | Archive                       | yes    | yes     | no              | Starts the archiving process and will trigger automatically a daily closing                                                                                                                              |
-| B      | Bill    | Bill                          | yes    | yes     | no              | bill and payment prove are created, this does not replace a ticket creation; a ticket or an invoice have to be issued to raise turnover and raise the GT counters as well                                |
-| B      | Bill    | Foreign sales                 | yes    | yes     | no              | bill and payment prove are created, this does not replace a ticket creation; a ticket or an invoice have to be issued to raise turnover and raise the GT counters as well                                |
-| C      | Copy    | Copy                          | yes    | yes     | no              | in a request the previous receipt reference is mandatory; it contains the receipt number of the cash register which was handed out as a copy                                                             |
-| G      | General | Daily Receipt                 | yes    | yes     | no              | Adds daily counter to month-counter an then resets daily counter; keeps shift counter                                                                                                                    |
-| G      | General | Monthly Receipt               | yes    | yes     | no              | Adds daily counter to month-counter an then resets daily counter; Adds monthly counter to yearly counter and then resets monthly counter; keeps shift counter                                            |
-| G      | General | Shift Receipt                 | yes    | yes     | no              | Resets shift counter, keeps all other counters                                                                                                                                                           |
-| G      | General | Start Receipt                 | yes    | yes     | no              | A receipt with empty charge items block and empty payment block which amounts to a total of "0"; This receipt starts the ft.SecurityMechanism and has to be send as first receipt before using the queue |
-| G      | General | Stop Receipt                  | yes    | yes     | no              | A receipt with empty charge items block and empty payment block which amounts to a total of "0"; This receipt stops the ft.SecurityMechanism and has to be send as last receipt before closing the queue |
-| G      | General | Yearly Receipt                | yes    | yes     | no              | Adds daily counter to month-counter an then resets daily counter; Adds monthly counter to yearly counter and then resets monthly counter; Resets yearly counter; keeps shift counter                     |
-| G      | General | Zero Receipt                  | yes    | yes     | no              | A receipt with empty charge items block and empty payment block which amounts to a total of "0"                                                                                                          |
-| I      | Invoice | Invoice                       | yes    | yes     | yes             | A reference to the ticket can be created by using the previous receipt number in the request                                                                                                             |
-| L      | Logging | Protocol / Accounting / Audit | yes    | yes     | no              | Can be used by the POS system to log custom accounting or auditing data                                                                                                                                  |
-| L      | Logging | Protocol / Custom             | yes    | yes     | no              | Can be used by the POS system to log custom data                                                                                                                                                         |
-| L      | Logging | Protocol / Technical Event    | yes    | yes     | no              | Can be used by the POS system to log custom technical data                                                                                                                                               |
-| P      | Payment | Cash Deposit                  | yes    | yes     | no              | total amount is always zero                                                                                                                                                                              |
-| P      | Payment | Pay Out                       | yes    | yes     | no              | total amount is always zero                                                                                                                                                                              |
-| P      | Payment | Payment Prove                 | yes    | yes     | no              | total amount is always zero                                                                                                                                                                              |
-| P      | Payment | Payment Transfer              | yes    | yes     | no              | Switch between Payment method, e.g. from cash to credit card                                                                                                                                             |
-| T      | Ticket  | Ticket                        | yes    | yes     | yes             | Issues a ticket with charge and pay items, has to be secured by printing the signatures send back by the service                                                                                         |
+|   A    | Archive | Archive                       |  yes   |   yes   |       no        | Starts the archiving process and will trigger automatically a daily closing                                                                                                                              |
+|   B    | Bill    | Bill                          |  yes   |   yes   |       no        | bill and payment prove are created, this does not replace a ticket creation; a ticket or an invoice have to be issued to raise turnover and raise the GT counters as well                                |
+|   B    | Bill    | Foreign sales                 |  yes   |   yes   |       no        | bill and payment prove are created, this does not replace a ticket creation; a ticket or an invoice have to be issued to raise turnover and raise the GT counters as well                                |
+|   C    | Copy    | Copy                          |  yes   |   yes   |       no        | in a request the previous receipt reference is mandatory; it contains the receipt number of the cash register which was handed out as a copy                                                             |
+|   G    | General | Daily Receipt                 |  yes   |   yes   |       no        | Adds daily counter to month-counter an then resets daily counter; keeps shift counter                                                                                                                    |
+|   G    | General | Monthly Receipt               |  yes   |   yes   |       no        | Adds daily counter to month-counter an then resets daily counter; Adds monthly counter to yearly counter and then resets monthly counter; keeps shift counter                                            |
+|   G    | General | Shift Receipt                 |  yes   |   yes   |       no        | Resets shift counter, keeps all other counters                                                                                                                                                           |
+|   G    | General | Start Receipt                 |  yes   |   yes   |       no        | A receipt with empty charge items block and empty payment block which amounts to a total of "0"; This receipt starts the ft.SecurityMechanism and has to be send as first receipt before using the queue |
+|   G    | General | Stop Receipt                  |  yes   |   yes   |       no        | A receipt with empty charge items block and empty payment block which amounts to a total of "0"; This receipt stops the ft.SecurityMechanism and has to be send as last receipt before closing the queue |
+|   G    | General | Yearly Receipt                |  yes   |   yes   |       no        | Adds daily counter to month-counter an then resets daily counter; Adds monthly counter to yearly counter and then resets monthly counter; Resets yearly counter; keeps shift counter                     |
+|   G    | General | Zero Receipt                  |  yes   |   yes   |       no        | A receipt with empty charge items block and empty payment block which amounts to a total of "0"                                                                                                          |
+|   I    | Invoice | Invoice                       |  yes   |   yes   |       yes       | A reference to the ticket can be created by using the previous receipt number in the request                                                                                                             |
+|   L    | Logging | Protocol / Accounting / Audit |  yes   |   yes   |       no        | Can be used by the POS-System to log custom accounting or auditing data                                                                                                                                  |
+|   L    | Logging | Protocol / Custom             |  yes   |   yes   |       no        | Can be used by the POS-System to log custom data                                                                                                                                                         |
+|   L    | Logging | Protocol / Technical Event    |  yes   |   yes   |       no        | Can be used by the POS-System to log custom technical data                                                                                                                                               |
+|   P    | Payment | Cash Deposit                  |  yes   |   yes   |       no        | total amount is always zero                                                                                                                                                                              |
+|   P    | Payment | Pay Out                       |  yes   |   yes   |       no        | total amount is always zero                                                                                                                                                                              |
+|   P    | Payment | Payment Prove                 |  yes   |   yes   |       no        | total amount is always zero                                                                                                                                                                              |
+|   P    | Payment | Payment Transfer              |  yes   |   yes   |       no        | Switch between Payment method, e.g. from cash to credit card                                                                                                                                             |
+|   T    | Ticket  | Ticket                        |  yes   |   yes   |       yes       | Issues a ticket with charge and pay items, has to be secured by printing the signatures send back by the service                                                                                         |
 
 #### Receipt cases<a name="ReceiptCases"></a>
 
-| Receipt Case                  | Value hex          | Value int64         |
+| Receipt Case                  |          Value hex |         Value int64 |
 |-------------------------------|-------------------:|--------------------:|
 | Archive                       | 0x4652000000000015 | 5067112530745229333 |
 | Bill                          | 0x4652000000000008 | 5067112530745229320 |
@@ -405,9 +405,9 @@ The additional files are containing the detailed data of any receipt and are ref
 
 #### Journal types
 
-| Value hex          | Value int64         | Description                                                                                                        |
-|-------------------:|--------------------:|--------------------------------------------------------------------------------------------------------------------|
-| 0x4652000000000000 | ‭5067112530745229312‬ | Version information                                                                                                |
-| 0x4652000000000001 | 5067112530745229313 | ActionJournal in internal format; contains all *zero-receipts*                                                     |
-| 0x4652000000000002 | 5067112530745229314 | ReceiptJournal in internal format; contains all *receipts* that are not *zero-receipts*                            |
-| 0x4652000000000003 | 5067112530745229315 | QueueitemJournal in internal format; contains all detailed information                                             |
+|          Value hex |         Value int64 | Description                                                                             |
+|-------------------:|--------------------:|-----------------------------------------------------------------------------------------|
+| 0x4652000000000000 | ‭5067112530745229312‬ | Version information                                                                     |
+| 0x4652000000000001 | 5067112530745229313 | fiskaltrust.ActionJournal in internal format; contains all *zero-receipts*              |
+| 0x4652000000000002 | 5067112530745229314 | ReceiptJournal in internal format; contains all *receipts* that are not *zero-receipts* |
+| 0x4652000000000003 | 5067112530745229315 | QueueitemJournal in internal format; contains all detailed information                  |

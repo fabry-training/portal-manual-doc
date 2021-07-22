@@ -11,7 +11,7 @@ The invitation of a PosOperator can only be made by a PosDealer, but not by a ma
 
 However, the role of a PosDealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Company Role PosCreator](company.md#company-role-poscreator)")
 
-[![https://portal.fiskaltrust.at/POSOperator](images/portal-sandbox.fiskaltrust.at/POSOperator/001.png "https://portal.fiskaltrust.at/POSOperator" )](https://portal.fiskaltrust.at/POSOperator)
+[![https://portal.fiskaltrust.at/PosOperator](images/portal-sandbox.fiskaltrust.at/PosOperator/001.png "https://portal.fiskaltrust.at/PosOperator" )](https://portal.fiskaltrust.at/PosOperator)
 Screenshot-AT 45: Invitation of the PosOperators by a PosDealer
 
 ![Number 1](../images/Numbers/1.png) The assignments of the PosOperators can be found under the menu item "Invitations".
@@ -66,7 +66,7 @@ The following fields are mandatory fields and must therefore be filled in:
 - zip code
 - location
 
-This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his e-mail address and can be assigned to the PosDealer.
+This is to guarantee that the PosOperator can be found correctly in the fiskaltrust.Portal via his e-mail address and can be assigned to the PosDealer.
 
 [![https://portal.fiskaltrust.at/PosOperator/PosOperators/](images/portal-sandbox.fiskaltrust.at/PosOperator/PosOperators/002.png "https://portal.fiskaltrust.at/PosOperator/PosOperators/")](https://portal.fiskaltrust.at/PosOperator/PosOperators/)
 Screenshot-AT 47: Assigning, editing and deleting a PosOperator 
@@ -106,7 +106,7 @@ Screenshot-AT 51: Example e-mail invitation of a PosOperator.
 
 PosOperator
 
-  By clicking on the link, the portal login is called up and the PosOperator has to register as a new user and as a new company or log in with his existing data. (see chapter "[Registration and Login](registration-login.md)")
+  By clicking on the link, the fiskaltrust.Portal login is called up and the PosOperator has to register as a new user and as a new company or log in with his existing data. (see chapter "[Registration and Login](registration-login.md)")
 
 ####<a name="example-of-a-pdf-attachment"></a> Example of a pdf-attachment
 

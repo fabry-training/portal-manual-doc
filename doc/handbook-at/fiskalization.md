@@ -81,7 +81,7 @@ Screenshot-AT 85: FinanzOnline status report
 
 ![Number 4](../images/Numbers/4.png) The following list shows a list of existing entitlements, messages, queues and SCUs including their current state at FinanzOnline.
 
-#### Completion the ft.Portal
+#### Completion the fiskaltrust.Portal
 1. new
 2nd inquiry (incident)
     1. a product must have been purchased with which the FinanzOnline messages can be carried out.
@@ -109,7 +109,7 @@ If the completion of a FinanzOnline message has already been done manually, this
 
 | All described functions can be tested in the test environment (sandbox) under [*https://portal-sandbox.fiskaltrust.at*](https://portal-sandbox.fiskaltrust.at).|
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Attention | \- The e-mails are also actually sent from the sandbox\!<br />Therefore, the data of the real customers should not be tested with the data of the sandbox.<br />- The data created in the sandbox are deleted with the following portal update and would have to be entered again.<br />- With each update, the data from the real system are transferred to the sandbox.<br />- In the real system (https://portal.fiskaltrust.at), the functions are taken over in the same way after the test in the sandbox, but not the test data, but the test data. |
+| Attention | \- The e-mails are also actually sent from the sandbox\!<br />Therefore, the data of the real customers should not be tested with the data of the sandbox.<br />- The data created in the sandbox are deleted with the following fiskaltrust.Portal update and would have to be entered again.<br />- With each update, the data from the real system are transferred to the sandbox.<br />- In the real system (https://portal.fiskaltrust.at), the functions are taken over in the same way after the test in the sandbox, but not the test data, but the test data. |
 
 ### Preparation collect all necessary information
 
@@ -195,14 +195,14 @@ TIP | 6 TIP | It is possible to design the e-mail invitation individually by the
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2 Authorization assignment | In order to carrie out furthrt steps with the PosDealer on behalf of the **PosOperator**, the rights "Write", "Write cash register product" and "Write configuration" must be added here. If this is not done, the following steps must be performed by the **PosOperator**. |
 | 3\. Optional Employees | Add employees for the **PosDealer** |
-TIP | 4 TIP | The **PosDealer** can create its employees in the portal and grant them access rights.                                                                                                                                                                                                                                                  |
+TIP | 4 TIP | The **PosDealer** can create its employees in the fiskaltrust.Portal and grant them access rights.                                                                                                                                                                                                                                                  |
 | 5 Add employees | Log in as PosDealer, click on the company name in the menu on the left and employees, click on Add, enter the e-mail address of the employee.                                                                                                                                                                                                     |
 | ![Screenshot-AT 91](images/portal-sandbox.fiskaltrust.at/Process/006.png) | Every person who should work with the fiskaltrust.Portal have to be added as employees.<br />(see chapter [Add employees](company.md#Add employee)) |
 | 6 E-mail confirmation | If the employee is found in the portal, he can be assigned directly. Otherwise, first name and surname must be added and the employee can be created again. The employee then receives an e-mail invitation with a confirmation link.                                                                           |
 
 ### Entry of the **PosDealer** as a **PosOperator**
 
-| 1 TIP | To make portal entries and configurations for the customer (PosOperator), the **PosDealer** (with his own access data) can switch to the view of the **PosOperator**. However, this requires the prior assignment of the authorizations from the **PosOperator**.                        |
+| 1 TIP | To make fiskaltrust.Portal entries and configurations for the customer (PosOperator), the **PosDealer** (with his own access data) can switch to the view of the **PosOperator**. However, this requires the prior assignment of the authorizations from the **PosOperator**.                        |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2 Login | Login as **PosDealer** |
 | Please note that in the menu, directly under the logo "fiskaltrust", the company name of the **PosDealer** is displayed.                                                                                                                                                                                                            |
@@ -220,7 +220,7 @@ TIP | 4 TIP | The **PosDealer** can create its employees in the portal and grant
 | 1 AT FinanzOnline messages | Click on {Tools} / "AT FinanzOnline messages" in the menu |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2 FinanzOnline<br />Login data | Enter the access data of a FinanzOnline user who is authorized for the cash register web service (participant identification (TID), user identification (BenID, PIN). Then: Check and Save |
-| TIP | 3 The status of the access data is indicated by a status button at the top of the page. The examination can take several minutes, since the access data is compared with the portal "FinanzOnline". With a browser refresh (key F5) the status can be updated. If the check fails, you can move the mouse pointer over the status button with exclamation and get information why the check failed. |
+| TIP | 3 The status of the access data is indicated by a status button at the top of the page. The examination can take several minutes, since the access data is compared with the fiskaltrust.Portal "FinanzOnline". With a browser refresh (key F5) the status can be updated. If the check fails, you can move the mouse pointer over the status button with exclamation and get information why the check failed. |
 
 ### Personalize SmartCard and transfer to portal
 
@@ -229,10 +229,10 @@ TIP | 4 TIP | The **PosDealer** can create its employees in the portal and grant
 | 2 Card reader | Connect a card reader, the card must not yet be inserted.|
 | 3 Install tool and start | Unpack the fiskaltrust.map activation tool in a directory and start it by double-clicking on "fiskaltrust.signing.tools.atrust.exe" |
 | Select card reader | Recognized card readers are displayed in the lower left corner, for multiple card readers the correct one must be selected.|
-| 5 Real operation <br />or Sandbox | In test operation "Sandbox" must be checked and the language can be changed to German.<br />In the portal under the Company overview {AccountID} and {AccessToken} of the **PosOperator** enter or copy into the login fields. Register by clicking on the arrow and the company information is read from the portal and displayed. An Internet connection must be established for this. |
+| 5 Real operation <br />or Sandbox | In test operation "Sandbox" must be checked and the language can be changed to German.<br />In the fiskaltrust.Portal under the Company overview {AccountID} and {AccessToken} of the **PosOperator** enter or copy into the login fields. Register by clicking on the arrow and the company information is read from the fiskaltrust.Portal and displayed. An Internet connection must be established for this. |
 | Insert 6 SmartCard | Insert a new SmartCard and select "New SmartCard" from the menu on the left.<br />SmartCards can be ordered in the fiskaltrust.shop: [https://portal.fiskaltrust.at/shop/products](https://portal.fiskaltrust.at/shop/products)
 | 7 UID control | The UID number of the **PosOperator** should now be displayed for "Order key". If this is not the case, the UID number check may not have been carried out correctly.                                                                                                                                                                                               |
-| 8 Name | A name for the SmartCard that can be freely selected and must be entered (this name is displayed in the portal after personalization to make it easier to assign this SmartCard) |
+| 8 Name | A name for the SmartCard that can be freely selected and must be entered (this name is displayed in the fiskaltrust.Portal after personalization to make it easier to assign this SmartCard) |
 | 9 Write | Click "Write SmartCard and create in fiskaltrust.Portal". The card is personalized with the selected key (usually the UID number), read and then immediately stored in the fiskaltrust.Portal of the **PosOperator**. The storage can be controlled in the fiskaltrust.Portal under "Configuration / Signature Creation Unit".                                |
 
 ### Buy package in shop or use template
@@ -324,16 +324,16 @@ Screenshot-AT 93: Create new template
 | In the list of signature creation devices created previously, click on the "question mark" at "FinanzOnline".                                                                                                                                                                                                                                                      |
 | 3 Perform message | Message type: "Signature creation device logon", IMPORTANT: "Check Sandbox mode\! Create notification.                                                                                                                                                                                                                                                    |
 | 4 Query status | You are taken to the FinanzOnline Overview, where the status of the message you just created is displayed and updated by browser refresh ("F5" key).                                                                                                                                                                                                      |
-TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over to the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the carefree packages. |
+TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over to the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the fiskaltrust.CarefreeBundle s. |
 
-### Register FinanzOnline PosSystem (Queue)
+### Register FinanzOnline POS-System (Queue)
 
 | 1 Queue | Left in menu to "Configuration", "Queue" |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2 Select queue | Click on the "?" at "Localization" in the list for the created queue.                                                                                                                                                                                                                                                                                        |
 | 3 Start message | Message type: Cash register login, tick Sandbox mode\! Create notification |
 | 4 Query status | You are taken to the FinanzOnline Overview, where the status of the message you just created is displayed. The status can be updated using the browser refresh button ("F5" key).                                                                                                                                                                                         |
-TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the carefree packages. |
+TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the fiskaltrust.CarefreeBundle s. |
 
 ### Create receipt and perform receipt check
 
@@ -342,5 +342,5 @@ TIP | 5 TIP | If there are problems during the execution of the online financial
 | 2 Start receipt check | Click on "Start receipt check" in the list for the created queue / "Localization" |
 | 3 Create check | Either manually copy in the QR code value / DEP value, or the data is automatically stored here if the service has received a start receipt request and is connected to the Internet. Click "Create validation".                                                                                                                         |
 | 4 FinanzOnline Status | You are taken to the FinanzOnline overview, where the status of the check you just created is displayed. It can be updated with a browser refresh ("F5" key).                                                                                                                                                                                             |
-TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the carefree packages. |
+TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the fiskaltrust.CarefreeBundle s. |
 | 6 TIP | During the execution of this process you have received some e-mails with interesting information.<br />It is worth taking a look at them.

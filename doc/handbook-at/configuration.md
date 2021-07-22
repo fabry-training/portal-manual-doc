@@ -48,20 +48,20 @@ Screenshot-AT 58: Overview - First configuration container
 
 ![Number 5](../images/Numbers/5.png) If you are using a Linux system, download the "mono useOffline Launcher" by clicking on ![mono Launcher](../images/Buttons/026.png "mono Launcher"). This is set to "useOffline" by default.
 
-![Number 6](../images/Numbers/6.png) If no carefree package has yet been purchased, the purchase can be made by clicking on ![Dollarsign](../images/Buttons/020.png "Dollarsign"). If a package has already been purchased, the validity date is displayed here.
+![Number 6](../images/Numbers/6.png) If no fiskaltrust.CarefreeBundle has yet been purchased, the purchase can be made by clicking on ![Dollarsign](../images/Buttons/020.png "Dollarsign"). If a package has already been purchased, the validity date is displayed here.
 
 ![Number 7](../images/Numbers/7.png) The CashBox can be edited with a click on ![Drag&Drop](../images/Buttons/027.png "Drag&Drop") by Drag\&Drop.
 
 ![Number 8](../images/Numbers/8.png) The CashBox can also be edited in a list view by clicking on ![List](../images/Buttons/028.png "List").
 
-![Number 9](../images/Numbers/9.png) By clicking on ![Trash](../images/Buttons/029.png "Trash") the cashbox can be deleted.
+![Number 9](../images/Numbers/9.png) By clicking on ![Trash](../images/Buttons/029.png "Trash") the CashBox can be deleted.
 
 #### Edit CashBox by Drag \& Drop
 
 [![https://portal-sandbox.fiskaltrust.at/CashBox](images/portal-sandbox.fiskaltrust.at/CashBox/005.png "http://portal.fiskaltrust.at/CashBox")](http://portal.fiskaltrust.at/CashBox)
 Screenshot-AT 59: Edit CashBox by Drag \& Drop
 
-![Number 1](../images/Numbers/1.png) Here you can see your already created queues. This corresponds to a data acquisition protocol and therefore a PosSystem in the sense of the RKSV.
+![Number 1](../images/Numbers/1.png) Here you can see your already created queues. This corresponds to a data acquisition protocol and therefore a POS-System in the sense of the RKSV.
 
 ![Number 2](../images/Numbers/2.png) Here you can see your already created helpers. Further information see chapter [Helpers](../handbook-general/configuration.md#helper).
 
@@ -170,13 +170,13 @@ Screenshot-AT 68: Queue overview
 
 ![Number 1](../images/Numbers/1.png) Click on ![Receipt](../images/Buttons/014.png "Receipt") to go to the receipt check. 
 
-![Number 2](../images/Numbers/2.png) Here the current status of the PosSystem is displayed, by clicking on ![Questionmark](../images/Buttons/015.png "Questionmark") a message about the status can be sent.
+![Number 2](../images/Numbers/2.png) Here the current status of the POS-System is displayed, by clicking on ![Questionmark](../images/Buttons/015.png "Questionmark") a message about the status can be sent.
 
 ![Number 3](../images/Numbers/3.png) By clicking on ![Refresh](../images/Buttons/016.png "Refresh") a status check is immediately transmitted to Finanz Online.
 
 ![Number 4](../images/Numbers/4.png) By clicking on ![List](../images/Buttons/017.png "List") all transmitted receipts are displayed.
 
-![Number 5](../images/Numbers/5.png) The Action Journal can be accessed by clicking on ![Ajournal](../images/Buttons/018.png "Ajournal"). All status changes and important actions are displayed here.
+![Number 5](../images/Numbers/5.png) The fiskaltrust.ActionJournal  can be accessed by clicking on ![Ajournal](../images/Buttons/018.png "Ajournal"). All status changes and important actions are displayed here.
 
 ![Number 6](../images/Numbers/6.png) The queue export can be started by pressing the button ![Export](../images/Buttons/019.png "Export"). For further information see chapter "Queue - Export" in the national appendices.
 
@@ -212,7 +212,7 @@ Screenshot-AT 70: Queue configuration
 
 ![Number 2](../images/Numbers/2.png) Here you can create a URL for your queue. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
 
-![Number 3](../images/Numbers/3.png) By clicking on ![http](../images/Buttons/013.png), the system generates a URL for you with which the POS system can access the queue. You can rename the URL yourself. This can look like this: http://localhost:1200/Queuefiskaltrust
+![Number 3](../images/Numbers/3.png) By clicking on ![http](../images/Buttons/013.png), the system generates a URL for you with which the POS-System can access the queue. You can rename the URL yourself. This can look like this: http://localhost:1200/Queuefiskaltrust
 
 ![Number 4](../images/Numbers/4.png) Click on \[Save\] to save the configuration of the queue.
 
@@ -310,7 +310,7 @@ Screenshot-AT 77: Signature Creation Device - Configuration
 
 ![Number 3](../images/Numbers/3.png) Here you can create a URL for your signature creation device. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
 
-![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the SCU. You can rename the URL yourself. This can look like this: http://localhost:1200/SCUfiskaltrust
+![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS-System can access the SCU. You can rename the URL yourself. This can look like this: http://localhost:1200/SCUfiskaltrust
 
 ![Number 5](../images/Numbers/5.png) Click on \[Save\] to save the configuration of the SCU.
 

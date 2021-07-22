@@ -10,17 +10,17 @@ title: Registration and Login
 The login or registration of a user takes place after clicking on [![Portal](../images/Buttons/035.png "Portal")](https://portal.fiskaltrust.at/Account/login)
 
 [![https://portal.fiskaltrust.at/Account/login](images/portal-sandbox.fiskaltrust.at/Account/001.png "https://portal.fiskaltrust.at/Account/login")](https://portal.fiskaltrust.at/Account/login)
-Screenshot-AT 3: Login, link for registration with ft.Portal and password reset | [https://portal.fiskaltrust.at/Account/login](https://portal.fiskaltrust.at/Account/login)
+Screenshot-AT 3: Login, link for registration with fiskaltrust.Portal and password reset | [https://portal.fiskaltrust.at/Account/login](https://portal.fiskaltrust.at/Account/login)
 
-![Number 1](../images/Numbers/1.png) If you are not registered as a user at the ft.Portal you can click [Register] without filling in the access data and get to the new registration.
+![Number 1](../images/Numbers/1.png) If you are not registered as a user at the fiskaltrust.Portal you can click [Register] without filling in the access data and get to the new registration.
 
-![Number 2](../images/Numbers/2.png) If you are already registered at the ft.Portal and therefore have an e-mail address and a password, you can login by filling in the access data and clicking on [Login]. All portal functions released for the respective user are then available. (see chapter "[Dashboard](dashboard.md)")
+![Number 2](../images/Numbers/2.png) If you are already registered at the fiskaltrust.Portal and therefore have an e-mail address and a password, you can login by filling in the access data and clicking on [Login]. All fiskaltrust.Portal functions released for the respective user are then available. (see chapter "[Dashboard](dashboard.md)")
 
 ![Number 3](../images/Numbers/3.png) If you have forgotten your password as a user, you can click on "*If you have forgotten your password, please click here:*". This will take you to the page where you can request a new password. (see chapter "[Reset password](#reset-password)")
 
 ####<a name="registration"></a> Registration: User's Email address
 
-The "Registration" at the ft.Portal is the first registration of a user, as well as the associated company (company).
+The "Registration" at the fiskaltrust.Portal is the first registration of a user, as well as the associated company (company).
 
 This procedure is valid for all users who are to subsequently perform a function as PosOperator, PosCreator, PosDealer or consultant.
 
@@ -108,17 +108,17 @@ The field "Company name" is a mandatory field. The company name is to be indicat
 
 ![Number 3](../images/Numbers/3.png) Since the user is created as the company's so-called "primary contact", the user's e-mail address has already been added to the company and cannot be changed.
 
-![Number 4](../images/Numbers/4.png) Enter the master data of the company. This master data can be changed later in the ft.Portal and is also the basis for the voluntary display to be released by the user in [https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners). (see chapter "[Overview of roles and contractual relationships](company.md#overview-of-roles-and-conctractual-relationships)")
+![Number 4](../images/Numbers/4.png) Enter the master data of the company. This master data can be changed later in the fiskaltrust.Portal and is also the basis for the voluntary display to be released by the user in [https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners). (see chapter "[Overview of roles and contractual relationships](company.md#overview-of-roles-and-conctractual-relationships)")
 
 The fields _Zip Code_ and _City_ are mandatory fields.
 
-If the company has a _UID number_, it should be entered. This can be used to prevent that a company which was already created in the ft.Portal is created again and therefore duplicated.
+If the company has a _UID number_, it should be entered. This can be used to prevent that a company which was already created in the fiskaltrust.Portal is created again and therefore duplicated.
 
-![Number 5](../images/Numbers/5.png) Since the subsequent registration of a company via the ft.Portal is currently not possible, the click should only be made if the user is to become active as an employee of an already registered company!
+![Number 5](../images/Numbers/5.png) Since the subsequent registration of a company via the fiskaltrust.Portal is currently not possible, the click should only be made if the user is to become active as an employee of an already registered company!
 
 At present the administration of all necessary functions can be carried out by the ft.Team. We are gladly available at [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
 
-It is possible for a user to be assigned to a company as an employee. It is not possible for a user to be deleted by the user via the ft.Portal you can only remove all access rights of a user.
+It is possible for a user to be assigned to a company as an employee. It is not possible for a user to be deleted by the user via the fiskaltrust.Portal you can only remove all access rights of a user.
 
 Only an existing connection of a user to a company can be disconnected.
 
@@ -141,7 +141,7 @@ If you have any questions, please send an e-mail to [info@fiskaltrust.at](mailto
 
 ##### Registration: Exception - Company is already created in fiskaltrust.Portal
 
-If the company was already created in the ft.Portal during registration and was found by the entered master data, the user is informed.
+If the company was already created in the fiskaltrust.Portal during registration and was found by the entered master data, the user is informed.
 
 ![Screenshot-AT 12](images/portal-sandbox.fiskaltrust.at/Account/008.png)
 Screenshot-AT 12: Information that a company with the same master data was found.
@@ -163,7 +163,7 @@ Screenshot-AT 13 - Example: Confirming your email address
 
 ![Number 1](../images/Numbers/1.png) **Text:** "To complete the registration, process with this e-mail address and log into [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at), please click on the following link and log in with your access data (e-mail address and self-chosen password)".
 
-![Number 2](../images/Numbers/2.png) By clicking on the word "*click*"  or on the visible link ![Number 3](../images/Numbers/3.png) the portal is called up. By using the coded link the portal recognizes that this link was assigned for the confirmation of the e-mail address of the user and/or the company. This releases the user's e-mail address for the ft.Portal.
+![Number 2](../images/Numbers/2.png) By clicking on the word "*click*"  or on the visible link ![Number 3](../images/Numbers/3.png) the fiskaltrust.Portal is called up. By using the coded link the fiskaltrust.Portal recognizes that this link was assigned for the confirmation of the e-mail address of the user and/or the company. This releases the user's e-mail address for the fiskaltrust.Portal.
 
 Now it is possible to log in with the newly created user data (e-mail address and personal password).
 
@@ -176,7 +176,7 @@ After clicking on the link in the confirmation e-mail, an information page will 
 ![Screenshot-AT 14](images/portal-sandbox.fiskaltrust.at/Account/009.png)
 Screenshot-AT 14: Information page after calling the confirmation link
 
-By clicking on "this link" the login page of the ft.Portal will be opened. (see chapter "[Login](#login)")
+By clicking on "this link" the login page of the fiskaltrust.Portal will be opened. (see chapter "[Login](#login)")
 
 #####<a name="activation-link-has-expired-or-is-invalid"></a> Exception: Activation link has expired or is invalid
 
